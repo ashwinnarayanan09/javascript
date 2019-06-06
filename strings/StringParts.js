@@ -1,30 +1,28 @@
 
-<script>
 var str = "Apple, Banana, Kiwi";
 var res = str.slice(7,13);
-document.write(res);
+console.log(res);
 
 var str = "Apple, Banana, Kiwi";
 var res = str.substring(7,13);
-document.write(res);
+console.log(res);
 
 var str = "Apple, Banana, Kiwi";
 var res = str.substr(7,6);
-document.write(res);
+console.log(res);
 
 var str = "Please visit Microsoft";
 var txt = str.replace("Microsoft","W3Schools");
-document.write(txt);
+console.log(txt);
 
 var str = "Please visit Microsoft & Microsoft";
 var txt = str.replace(/Microsoft/g,"W3Schools");
-document.write(txt);
+console.log(txt);
 
 var str = "     Hello World!     ";
 var res = str.trim();
-document.write(res);
+console.log(res);
 
 var str = "a,b,c,d,e,f";
 var arr = str.split(",");
-document.write(arr[0]);
-</script>
+console.log(arr[0]);
