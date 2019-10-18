@@ -7,15 +7,4 @@ var person = {
   }
 };
 
-console.log(person.lastName);
-console.log(person["lastName"]);
-
 console.log(person.fullName());
-
-
-var student = {
-  greeting : name => console.log('hello:'+name)
-};
-
-
-student.greeting("Ashwin");
