@@ -44,3 +44,28 @@ myObj2 = {
  x = myObj2.cars["car2"];
 
  console.log(x);
+
+
+myObj3 = {
+  "name":"John",
+  "age":30,
+  "cars": {
+    "car1":"Ford",
+    "car2":"BMW",
+    "car3":"Fiat"
+  }
+ }
+
+console.log(myObj2.cars);
+
+const person = {
+  "name":"John",
+  "age":30,
+  "cars": [
+    {"car":"Ford"},
+    {"car":"BMW"},
+    {"car":"Fiat"},
+  ]
+ }
+
+console.log(person.cars);

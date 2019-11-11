@@ -19,3 +19,35 @@ var student = {
 
 
 student.greeting("Ashwin");
+
+
+///
+
+var parent = {
+  firstName: "John",
+  lastName : "Doe",
+  id     : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  },
+  child:{
+  "name":"John",
+  "age":30,
+  "cars": [
+    {"car":"Ford"},
+    {"car":"BMW"},
+    {"car":"Fiat"},
+  ]
+ }
+};
+
+
+
+console.log(parent.child);
+console.log(parent.child.cars);
+
+var carArr = parent.child.cars.map(function(car){
+    return car;
+})
+
+console.log(carArr);
